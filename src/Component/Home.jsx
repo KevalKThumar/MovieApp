@@ -101,7 +101,7 @@ const Home = () => {
       </div>
       <div className="container">
         {movieData.length == 0 ? (
-          <p className="notfound">Not Found</p>
+          <p className="notfound">Loding...</p>
         ) : (
           movieData.map((res, pos) => {
             return <Cards info={res} key={pos} />;
